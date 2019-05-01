@@ -122,7 +122,3 @@ services:
                 hard: 262144
         depends_on:
             - "clickhouse-zookeeper"
-networks:
-    default:
-        external:
-            name: clickhouse-net
